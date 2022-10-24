@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" style="direction: rtl;">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index2.css"/>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<title>اطلب عرض سعر</title>
+</head>
+<body>
+      <!-- nav bar-->
+    <!-- Right side-->
+    <div class="bg-image">
+        <nav class="navigation-bar">
+          <div class="container">
+            <div class="nav-bar">
+            <ul class="nav-list">
+              <li>
+                <a href="#"><img  src="https://elmawkaa.com/img/logo.png" alt="" width="150" height="55"></a>
+            </li>
+                <li class="nav-content"> <a href="#">مواد البناء</a></li>
+                <li class="nav-content"> <a href="#">أحدث الطلبيات</a></li>
+                <li class="nav-content"> <a href="#">كيف تعمل؟</a></li>
+                <li class="nav-content"> <a href="#">سجل كمورد</a></li>
+                <li class="nav-content"> <a href="https://elmawkaa.com/Blog">المدونة</a></li>
+                <li class="nav-content"> <a href="https://elmawkaa.com/dashboardv2/home/pricing/">الباقات</a></li>
+                <li class="nav-content"> <a href="#">اتصل بنا</a></li>
+                <!-- left side-->
+                <div class="left-side">
+                    <li class="nav-content">
+                      <a href="https://elmawkaa.com/dashboardv2/auth/login/">
+                      <i class="fas fa-user"></i>
+                      تسجيل دخول 
+                      <span class="login-s"> جديد</span>
+                    </a>
+                  </li>
+                </li>
+              </div>
+                <div class="dropdown">
+                  <button class="dropbtn">      
+                  <a ><img class="flag" src="https://elmawkaa.com/flags/1x1/egy.svg"></a>
+                  <i class="fa fa-caret-down" style="color: white; margin: 0%;"></i>
+                </button>
+          
+                  <div class="dropdown-content">
+                    <a href="#" > 
+                      <img  class="flag"src="https://elmawkaa.com/flags/1x1/sau.svg" > 
+                      المملكة العربية السعودية </a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+              </header>
+<!--the form-->
+<form id="regForm" action="/action_page.php">
+   
+    <div class="content" >
+        <a class="btn-violet" href="https://elmawkaa.com/HowToContractor"> اضغط هنا لتعلم كيف تعمل المنصة</a>
+      </div>
+      <h2 class="form-header" style="font-family: Dak;">طلب عرض سعر </h2>
+      <h1 class="form-main-header"> مواد بناء</h1>
+      <!-- Progress bar -->
+    
+        
+        <div class="stepss">
+            <div class="step step-active">معلومات المنتج</div>
+            <div class="step">المشروع</div>
+            <div class="step">تفاصيل أخري</div>
+            <div class="step"> ازاي نوصلك</div>
+          </div>
+  
+  <!-- One "tab" for each step in the form: -->
+  <fieldset style="background-color:#e9ecef; border-radius: 15px;"> <!-- to make the field colored-->
+  <div class="tab">
+  <label for="products" >اسم المنتج المطلوب <span style="color: red;">*</span></label>
+  <input list="products" name="products" placeholder="اختر اسم المنتج المطلوب"required>
+  <datalist id="products" >
+    <option value="خرسانة جاهزة">خرسانة جاهزة</option>
+    <option value="أسمنت معبأ">أسمنت معبأ</option>
+    <option value="أسمنت سايب">أسمنت سايب</option>
+    <option value="حديد تسليح">حديد تسليح</option>
+    <option value="طوب أحمر طفلي مفرغ">طوب أحمر طفلي مفرغ</option>
+    <option value="طوب أسمنتي مصمت">طوب أسمنتي مصمت</option>
+    <option value="بلوك أسمنتي مفرغ">بلوك أسمنتي مفرغ</option>
+    <option value="بلاط موزايكو">بلاط موزايكو</option>
+    </datalist>
+    <!---->
+
+    <label for="quantity">الكمية<span style="color: red;">*</span></label>
+    <input type="number" id="quantity" name="quantity" min="1" step="0.5" placeholder="اختر الكمية" required>
+    <!---->
+
+    <label for="units">الوحدة<span style="color: red;">*</span></label>
+    <input list="units" name="units" placeholder="اختر الوحدة"  required>
+    <datalist id="units" >
+      <option value="طن">طن</option>
+      <option value="م3">م3</option>
+      <option value="طوبة">طوبة</option>
+      <option value="بلوك">بلوك</option>
+      <option value="عدد">عدد</option>
+      <option value="م2">م2</option>
+      <option value="مم">مم</option>
+      <option value="سم">سم</option>
+      <option value="م">م</option>
+      <option value="كجم">كجم</option>
+    </datalist>
+  <!---->
+
+  <label for="myfile"></label>
+  <input type="file" id="myfile" name="myfile" style="border: #935cae;" أضف صورة المنتج>
+</div>
+<!---->
+
+<div class="tab">
+    <label for="proj">مكان المشروع <span style="color: red;">*</span></label>
+    <input list="proj" name="proj" placeholder=" اختر مكان المشروع"  required>
+    <datalist id="proj" >
+      <option value="القاهرة الجديدة_ التجمع _ القاهرة">القاهرة الجديدة_ التجمع _ القاهرة</option>
+      <option value=" أكتوبر_ الجيزة ">6 أكتوبر_ الجيزة </option>
+      <option value="العاصمة الادارية الجديدة_القاهرة">العاصمة الادارية الجديدة_ القاهرة</option>
+      <option value="مدينة بدر _القاهرة">مدينة بدر _ القاهرة</option>
+      <option value="مدينة الشروق_القاهرة">مدينة الشروق_ القاهرة</option>
+      <option value="العبور_القاهرة">العبور_ القاهرة</option>
+      <option value="العاشر من رمضان_الشرقية">العاشر من رمضان_ الشرقية</option>
+    </datalist>
+<!---->
+
+        <label for="address">عنوان المشروع <span style="color: red;">*</span></label>
+        <input type="text" name="address" id="address" placeholder="اختر عنوان المشروع" required>
+    <!---->
+
+        <label for="proj-period">مرحلة المشروع <span style="color: red;">*</span></label>
+        <input list="proj-period" name="proj-period" placeholder=" اختر مرحلة المشروع"  required>
+        <datalist id="proj-period" >
+          <option value=" مرحلة التنفيذ">مرحلة التنفيذ</option>
+          <option value="   مرحلة تقديم المناقصات"> مرحلة تقديم المناقصات  </option>
+        </datalist>
+      <!---->
+
+        <label for="dob">عايز تنفذ الطلبية امتي؟ <span style="color: red;">*</span></label>
+        <input type="date" name="dob" id="dob" required/>
+      </div>
+<!---->
+
+<div class="tab">
+    <label for="payment">طريقة الدفع<span style="color: red;">*</span></label>
+    <input list="payment" name="payment"  required>
+    <datalist id="payment" >
+      <option value=" كاش أو تحويل بنكي ">كاش أو تحويل بنكي </option>
+      <option value="   اجل"> اجل  </option>
+    </datalist>
+    <p style="color:red;"> الدفع بالآجل متاح فقط للمقاولين الذين نفذوا
+      <br>
+      أكثر من عمليتين وحسب شروط وموافقة المورد</p>
+      <!---->
+
+    <p><label for="txtHere">تفاصيل أخرى خاصة بالطلب <span style="color: red;">*</span></label></p>
+    <textarea id="txtHere" name="txtHere" rows="5" cols="50">  
+تفاصيل أخري مثل المواصفات و المقاسات و الاعتمادات المطلوبة
+</textarea>
+  </div>
+
+  <div class="tab">
+    <label for="company-name">اسم شركتك ايه؟ <span style="color: red;">*</span></label>
+    <input type="text" name="company-name" placeholder="اسم شركتك ايه؟" required>
+    <!---->
+
+    <label for="username">اسم الشخص المفوض ثنائي <span style="color: red;">*</span></label>
+    <input type="text" name="username" placeholder="اسم الشخص المفوض ثنائي" required>
+    <!---->
+
+    <label for="mobile-num">رقم الموبايل المسجل عالواتساب <span style="color: red;">*</span></label>
+    <input type="tel" pattern="/^01[0125][0-9]{8}$" placeholder="مثال:010123456789" required> 
+    <!---->
+
+    <label for="mail">ايميلك <span style="color: red;">*</span></label>
+    <input type="email"  placeholder="mohamed@gmail.com" required>
+  <!---->
+        <input type="checkbox" id="option1" name="option2" value="option1">
+        <label for="option1"> تذكرني علي هذا الجهاز</label><br>
+        <input type="checkbox" id="option2" name="option2" value="option2">
+        <label for="option2"> تذكر المشروع</label><br>
+
+  </div>
+ </div>
+
+  <div style="overflow:auto;">
+    <div >
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">السابق</button>
+      <button style="float: left;" type="button" id="nextBtn" onclick="nextPrev(1)">التالي</button>
+    </div>
+  </div>
+  
+    </fieldset>
+</form>
+
+<script src="index2.js"></script>
+</body>
+</html>
